@@ -1,5 +1,4 @@
 
-from transformers import pipeline
 from pypdf import PdfReader # used to extract text from pdf
 from langchain.text_splitter import CharacterTextSplitter # split text in smaller snippets
 #import os # read API key from environment variables. Not required if you are specifying the key in notebook.
