@@ -11,7 +11,7 @@ import os
 
 
 #max relevant images to display
-MAX_IMAGES = 2 
+MAX_IMAGES = 1
 
 #path of the folder containing the pdf files
 folder_path="."
