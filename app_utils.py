@@ -255,7 +255,7 @@ def answer_users_question(user_question):
     top_snippets_meta = [result[1] for result in formatted_top_results]
 
     # Create the chatbot system using pdf_description provided by the user.
-    chatbot_system = f"""You are provided with SEARCH RESULTS from a pdf. This pdf is a {pdf_description}. You need to generate answer to the user's question based on the given SEARCH RESULTS. SEARCH RESULTS as a python list. SEARCH RESULTS and USER's QUESTION are delimited by ``` \n If there is no information available, or question is irrelevent respond with - "Sorry! I can't help you." """
+    chatbot_system = f"""You are provided with SEARCH RESULTS from a pdf. The answer should be in markdown format. This pdf is a {pdf_description}. You need to generate answer to the user's question based on the given SEARCH RESULTS. SEARCH RESULTS as a python list. SEARCH RESULTS and USER's QUESTION are delimited by ``` \n If there is no information available, or question is irrelevent respond with - "Sorry! I can't help you." """
 
     # Create the prompt using results and user's question.
     prompt = f"""\
