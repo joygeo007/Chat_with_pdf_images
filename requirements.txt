@@ -1,5 +1,6 @@
 streamlit
 openai
+langchain
 langchain-openai
 pypdf[image]
 PyMuPDF
