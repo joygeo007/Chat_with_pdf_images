@@ -1,0 +1,6 @@
+streamlit
+openai
+langchain-openai
+pypdf[image]
+PyMuPDF
+Pillow
