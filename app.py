@@ -67,7 +67,7 @@ if prompt := st.chat_input("What is up?"):
     # Display assistant response in chat message container
     with st.chat_message("assistant"):
         st.markdown(response[0])
-        if response[0]!="Sorry! I can't help you." or len(response[0])> 30:
+        if response[0]!="Sorry! I can't help you." & len(response[0])> 30:
           if imgs:
             for i in imgs:
               st.image(i)
