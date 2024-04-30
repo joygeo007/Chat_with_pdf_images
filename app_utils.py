@@ -52,6 +52,8 @@ def load_pdf(folder_path=".",images_folder="images"):
 
         # Iterate over each page
         for i,page in enumerate(reader.pages):
+          if i==0:
+            continue
 
           #extract text
           page_text = page.extract_text()
@@ -81,6 +83,9 @@ def load_pdf(folder_path=".",images_folder="images"):
 
     #iterate through the pages of the doc
     for j,page in enumerate(doc.pages()):
+        if j==0:
+          continue
+      
         # get images in the page
         refs = page.get_images()
         
