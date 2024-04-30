@@ -14,7 +14,7 @@ import fitz
 
 EXTRACTED_PDF_TEXT = "pdf_text.json" # text extracted from pdf
 EXTRACTED_JSON_PATH = "extracted.json" # snippets and embeddings
-OPENAI = OPENAI_KEY# replace this with your openai api key or store the api key in env
+OPENAI = st.secrets["OPENAI_KEY"]# replace this with your openai api key or store the api key in env
 EMBEDDING_MODEL = "text-embedding-ada-002" # embedding model used
 
 GPT_MODEL = "gpt-3.5-turbo-0125" # gpt model used. alternatively you can use gpt-4 or other models.
