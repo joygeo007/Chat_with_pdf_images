@@ -1,4 +1,9 @@
 
+
+## Link to Demo
+https://chatwithpdfimages.streamlit.app/
+
+
 # PDF Query Bot
 
 PDF Query Bot is an intelligent chatbot application designed to help users query and extract information from PDF documents. The bot leverages OpenAI's GPT-3.5 model and embedding techniques to provide accurate answers based on the content of the PDFs.
